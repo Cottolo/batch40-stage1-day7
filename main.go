@@ -67,7 +67,7 @@ func addProject(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Project Name :" + r.PostForm.Get("project-name"))
 	fmt.Println("Start Date :" + r.PostForm.Get("start-date"))
 	fmt.Println("End Date : " + r.PostForm.Get("end-date"))
-	fmt.Println("Project Descriptiom :" + r.PostForm.Get("project-description"))
+	fmt.Println("Project Description :" + r.PostForm.Get("project-description"))
 	fmt.Println("Technology : " + r.PostForm.Get("node-js"))
 	fmt.Println("Technology : " + r.PostForm.Get("next-js"))
 	fmt.Println("Technology : " + r.PostForm.Get("react-js"))
